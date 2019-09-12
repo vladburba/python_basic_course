@@ -1,2 +1,2 @@
 # python
-python_basic
+python_basic_course

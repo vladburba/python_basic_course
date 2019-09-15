@@ -3,19 +3,18 @@
 # Подсказка:
 # для получения случайного числа используйте функцию randint() модуля random
 import random
-numbers = []
-print(numbers)
-random.randint(-100, 100) #- случайное целое число N, A ≤ N ≤ B.
-answer = int(input("Введите число элементов списка: "))
 
-while True:
-    answer = int(input("Введите число элементов списка: "))
-    print('Число элементов списка = ',answer)
-    if 0 < answer < 10:
-        print(answer,"Ваше число удовлетворяет условиям.")
-        print(" Сейчас мы его возведем в квадрат и увидим результат!")
-        answer=answer**2
-        print(" Результат: ", answer)
-        break
-    else:
-        print("Неправильный ответ попробуй ещё раз, пожулуйста!")
+list_numbers = []
+num = 1
+last_number = int(input("Введите число элементов списка: "))
+result = f'num = {num} last_num = {last_number} list_numbers {list_numbers} '
+print(result)
+
+
+while num <= last_number:
+    leaf = random.randint(-100, 100) #- случайное целое число N, A ≤ N ≤ B
+    list_numbers.append(leaf)
+    num += 1
+print(list_numbers)
+print('Task_3_is_finished')
+print()

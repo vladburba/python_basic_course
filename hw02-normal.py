@@ -10,7 +10,6 @@ last_number = int(input("Введите число элементов списк
 result = f'num = {num} last_num = {last_number} list_numbers {list_numbers} '
 print(result)
 
-
 while num <= last_number:
     leaf = random.randint(-100, 100) #- случайное целое число N, A ≤ N ≤ B
     list_numbers.append(leaf)

@@ -1,0 +1,14 @@
+Vasya - 100
+Jack - 3000
+Jim - 5000
+Sam - 200
+Tod - 400
+Jeff - 700
+John - 9999
+Vasya - 100
+Jack - 3000
+Jim - 5000
+Sam - 200
+Tod - 400
+Jeff - 700
+John - 9999
